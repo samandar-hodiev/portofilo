@@ -653,6 +653,10 @@ video {
   width: 100%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -691,9 +695,34 @@ video {
   background-color: rgb(87 0 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#F5F3F0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 243 240 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#eae8e1\] {
   --tw-bg-opacity: 1;
   background-color: rgb(234 232 225 / var(--tw-bg-opacity));
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.px-\[24px\] {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.py-\[14px\] {
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .py-\[60px\] {
@@ -719,14 +748,6 @@ video {
 
 .text-\[30px\] {
   font-size: 30px;
-}
-
-.text-\[40px\] {
-  font-size: 40px;
-}
-
-.text-\[0px\] {
-  font-size: 0px;
 }
 
 .font-extrabold {
@@ -778,17 +799,58 @@ video {
   transition-duration: 500ms;
 }
 
-.ease-out {
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+.duration-200 {
+  transition-duration: 200ms;
 }
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
 .hover\:bg-\[\#3546c8\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(53 70 200 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#F5F3F0\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 243 240 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#f5f3f092\]:hover {
+  background-color: #f5f3f092;
+}
+
+.hover\:bg-\[\#f5f3f03f\]:hover {
+  background-color: #f5f3f03f;
+}
+
+.hover\:bg-\[\#f5f3f01f\]:hover {
+  background-color: #f5f3f01f;
+}
+
+.hover\:bg-\[\#f5f3f032\]:hover {
+  background-color: #f5f3f032;
+}
+
+.hover\:bg-\[\#f5f3f04b\]:hover {
+  background-color: #f5f3f04b;
+}
+
+.hover\:bg-\[\#f5f3f062\]:hover {
+  background-color: #f5f3f062;
+}
+
+.hover\:bg-\[\#f5f3f074\]:hover {
+  background-color: #f5f3f074;
+}
+
+.hover\:bg-\[\#f5f3f081\]:hover {
+  background-color: #f5f3f081;
 }
 
 .active\:bg-\[\#2b3aad\]:active {
@@ -876,6 +938,42 @@ video {
     width: 652px;
   }
 
+  .md\:w-\[662px\] {
+    width: 662px;
+  }
+
+  .md\:w-\[4px\] {
+    width: 4px;
+  }
+
+  .md\:w-\[40px\] {
+    width: 40px;
+  }
+
+  .md\:w-\[460px\] {
+    width: 460px;
+  }
+
+  .md\:w-\[680px\] {
+    width: 680px;
+  }
+
+  .md\:w-\[470px\] {
+    width: 470px;
+  }
+
+  .md\:w-\[710px\] {
+    width: 710px;
+  }
+
+  .md\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -921,6 +1019,34 @@ video {
 
   .lg\:w-\[652px\] {
     width: 652px;
+  }
+
+  .lg\:w-\[662px\] {
+    width: 662px;
+  }
+
+  .lg\:w-\[460px\] {
+    width: 460px;
+  }
+
+  .lg\:w-\[680px\] {
+    width: 680px;
+  }
+
+  .lg\:w-\[470px\] {
+    width: 470px;
+  }
+
+  .lg\:w-\[710px\] {
+    width: 710px;
+  }
+
+  .lg\:w-\[px\] {
+    width: px;
+  }
+
+  .lg\:w-\[500px\] {
+    width: 500px;
   }
 
   .lg\:flex-row {
@@ -970,6 +1096,38 @@ video {
     width: 652px;
   }
 
+  .xl\:w-\[662px\] {
+    width: 662px;
+  }
+
+  .xl\:w-\[460px\] {
+    width: 460px;
+  }
+
+  .xl\:w-\[62px\] {
+    width: 62px;
+  }
+
+  .xl\:w-\[682px\] {
+    width: 682px;
+  }
+
+  .xl\:w-\[680px\] {
+    width: 680px;
+  }
+
+  .xl\:w-\[470px\] {
+    width: 470px;
+  }
+
+  .xl\:w-\[710px\] {
+    width: 710px;
+  }
+
+  .xl\:w-\[500px\] {
+    width: 500px;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -1015,6 +1173,46 @@ video {
 
   .\32xl\:w-\[652px\] {
     width: 652px;
+  }
+
+  .\32xl\:w-\[px\] {
+    width: px;
+  }
+
+  .\32xl\:w-\[6px\] {
+    width: 6px;
+  }
+
+  .\32xl\:w-\[662px\] {
+    width: 662px;
+  }
+
+  .\32xl\:w-\[460px\] {
+    width: 460px;
+  }
+
+  .\32xl\:w-\[68px\] {
+    width: 68px;
+  }
+
+  .\32xl\:w-\[680px\] {
+    width: 680px;
+  }
+
+  .\32xl\:w-\[470px\] {
+    width: 470px;
+  }
+
+  .\32xl\:w-\[0px\] {
+    width: 0px;
+  }
+
+  .\32xl\:w-\[710px\] {
+    width: 710px;
+  }
+
+  .\32xl\:w-\[500px\] {
+    width: 500px;
   }
 
   .\32xl\:flex-row {
