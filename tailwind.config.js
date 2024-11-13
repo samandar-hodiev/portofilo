@@ -4,9 +4,13 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
-    extend:{
-      fontFamily:{
-          manrope:["Manrope"]
+    extend: {
+      fontFamily: {
+        manrope: ["Manrope"]
+      },
+      backgroundImage: {
+        'workF1': "url('./assets/images/workF1.png')",
+        // 'workSmallBg':"url('./assets/images/workF1.png')"
       }
     },
     accentColor: ({ theme }) => ({
