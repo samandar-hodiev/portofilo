@@ -3,25 +3,31 @@
 .menuHider{
     margin-left: -100%;
 }
-
 .workBg, .workSmallBg{
     background-image: url(../assets/images/workF1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
-
 .workBg2, .workSmallBg2{
     background-image: url(../assets/images/workF2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
 .workBg3, .workSmallBg3{
     background-image: url(../assets/images/workF3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.contentBx .content{
+    height: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    /* transition:all 0.5s ease-in; */
+}
+.contentBx.actived .content{
+    height:auto;
+    padding-top: 12px;
 }

@@ -12,3 +12,23 @@ menuButton.addEventListener('click', ()=>{
          menuButton.innerHTML=`<i class="bi bi-x "></i>`;
     }
 });
+
+const contentBox = document.getElementsByClassName('contentBx');
+const btn = document.getElementsByClassName('btn');
+
+for(let i=0; i<contentBox.length; i++){
+    contentBox[i].addEventListener('click', function(){
+        this.classList.toggle('actived')
+        // if(contentBox[i].classList.contains('ctived')){
+        //     btn[i].innerHTML=`   <img src="./assets/images/plas.svg" alt="svg">`
+        // }else{
+            
+        //      btn[i].innerHTML=`<img src="./assets/images/iks.svg" alt="svg">`
+        // }
+    });
+};
+
+
+
+
+
